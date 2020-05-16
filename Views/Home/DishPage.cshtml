@@ -1,0 +1,9 @@
+<h1>@ViewBag.dishpage[0].Name</h1>
+<h2>@ViewBag.dishpage[0].Chef</h2>
+<hr>
+    <h4><a href="/">Home</a></h4>
+    <h4>@ViewBag.dishpage[0].Description</h4>
+    <h5>Calories: @ViewBag.dishpage[0].Calories</h5>
+    <h5>Tastiness: @ViewBag.dishpage[0].Tastiness</h5>
+    <a href="/delete/@ViewBag.dishpage[0].DishId"><button>Delete</a></button><a href="/edit/@ViewBag.dishpage[0].DishId"><button>Edit</button></a>
+</div>
